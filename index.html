@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet">
+</head>
+    <body>
+    
+      <img class="main"
+        src="https://images.unsplash.com/photo-1487017159836-4e23ece2e4cf?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8b2ZmaWNlJTIwbWVuJTIwOTB8ZW58MHx8MHx8fDA%3D">
+      <img class="phone"
+        src="data:image/jpeg;base64,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">
+      <p class="p">192-295-6789</p>
+      <h1 class="meet">
+        Meet all your<br>
+        investigative and <br>
+        litigation needs
+      </h1>
+      <p class="lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam enim pariatur<br>
+        similique debitis vel nisi qui reprehenderit totam? Quod maiores</p>
+      <button class="po" type="button" class="btn btn-primary btn-lg ">Our services ></button>
+      <button type="button" class="btn btn-outline-secondary btn-lg ">Contact Us ></button>
+    
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="dad" class="navbar-brand" href="#">Solicitor</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="work" class="nav-item ">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <li class="lang" class="nav-item">
+                <a class="nav-link" href="#">Services</a>
+              </li>
+              <li class="name" class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="love" class="nav-item">
+                <a class="nav-link" href="#">Contact us</a>
+              </li>
+              <li class="class" class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Practicing Area
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    
+    
+    
+      <div id="parent">
+        <h1 class="none"> I'm Jon Campbell</h2>
+          <h2 class="vtr"></h2>
+          <img class="kj" src="https://preview.colorlib.com/theme/solicitor/images/about_2.png">
+          <p class="khni">
+            Far far away, behind the word mountains, far from the countries<br>
+            Vokalia and Consonantia, there live the blind texts. Separated they<br> 
+            live in Bookmarksgrove right at the coast of the Semantics, a large <br>
+            language ocean.<br><br>
+    
+            A small river named Duden flows by their place and supplies it with<br>
+            the necessary regelialia. It is a paradisematic country, in which<br>
+            roasted parts of sentences fly into your mouth .
+          </p>
+          <button class="kl" type="button" class="btn btn-primary btn-lg ">Our services  ></button>
+         </div>
+         <div id="child">
+          <h1 class="non">Our Services</h1>
+        <div class="vc">
+          <i class="yoyo"></i>
+          <h3 class="da">Councel</h3>
+          <p class="sa">A small river named Duden flows by their place and supplies it <br>
+            with the necessary regelialia. It is a paradisematic country, <br>
+            in which roasted parts of sentences fly into your mouth</p>
+          
+          
+          <i class="toto"></i>
+          <h3 class="ad">Legal Dept</h3>
+          <p class="sw">A small river named Duden flows by their place and supplies<br>
+            it with the necessary regelialia. It is a paradisematic country, <br>
+           in which roasted parts of sentences fly into your mouth.</p>
+           
+          
+          
+          <i class="oppo"></i>  
+           <h3 class="as">Compliance</h3>
+           <p class="rw">A small river named Duden flows by their place and supplies<br>
+             it with the necessary regelialia. It is a paradisematic country, <br>
+            in which roasted parts of sentences fly into your mouth.</p>
+           
+           
+           <i class="lolo"></i>
+            <h3 class="ak">Identity</h3>
+            <p class="dw">A small river named Duden flows by their place and supplies<br>
+              it with the necessary regelialia. It is a paradisematic country, <br>
+             in which roasted parts of sentences fly into your mouth.</p>
+           
+            <i class="fofo"></i>
+           <h3 class="ah">Hall of Justice</h3>
+           <p class="qw">A small river named Duden flows by their place and supplies<br>
+            it with the necessary regelialia. It is a paradisematic country, <br>
+           in which roasted parts of sentences fly into your mouth.</p>
+           
+           <i class="dodo"></i> 
+            <h3 class="aa">Law Abiding</h3>
+            <p class="ws">A small river named Duden flows by their place and supplies<br>
+              it with the necessary regelialia. It is a paradisematic country, <br>
+             in which roasted parts of sentences fly into your mouth.</p>
+      </div>
+        
+        
+        </div>
+         <div id="father">
+          <h1 class="vxr">Security Consultants </h2>
+            <img  class="kf" src="https://preview.colorlib.com/theme/solicitor/images/hero_3.jpg" >
+            <h2 class="vxx">Justice serves</h2>
+            <p class="gf">A small river named Duden flows by their place and supplies it with <br>
+              the necessary regelialia. It is a paradisematic country, in which <br>
+              roasted parts of sentences fly into your mouth. Far far away,<br>
+               behind the word mountains, far from the countries Vokalia and <br>
+              Consonantia, there live the blind texts.</p>
+              <button class="rk" type="button" class="btn btn-primary btn-lg ">Read more  ></button>
+            </div>
+    
+    <div id="mother">
+      <h1 class="book">Testimonials</h1>
+      <img class="first" src="https://preview.colorlib.com/theme/solicitor/images/person_2.jpg">
+         <p class="rr">Angela Simth</p>
+          <p class="ss">CEO,co Founder</p>
+          
+      <img class="sec" src="https://preview.colorlib.com/theme/solicitor/images/person_1.jpg">
+          <p class="qr">Joes Hazellhood</p>
+           <p class="qn">Web Designer</p>
+    
+      <img class="thir" src="https://preview.colorlib.com/theme/solicitor/images/person_3.jpg">
+      <p class="fr">lewies Burace</p>
+       <p class="gn">Web Designer</p>">
+           <p class="qr">Joes Hazellhood</p>
+            <p class="qn">Web Designer</p>
+      <h1 class="took">“A small river named Duden flows by their place and<br>
+         supplies it with the necessary regelialia. It is<br>
+          a paradisematic country, in which roasted parts of<br>
+           sentences fly into your mouth. Far far away, behind<br>
+           the word mountains, far from the countries Vokalia <br>
+        and Consonantia, there live the blind texts.”</h1>
+         <p class="dd">
+          — Angela Smith <br>
+            CEo, Co-Founder 
+         </p>
+      </div>
+    </div>      
+    </body>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+    
+    </body>
+    
+    </html>
